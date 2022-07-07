@@ -1,0 +1,11 @@
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "user_name": "big dave",
+  "email": "dave@gmail.com",
+  "country": "daveland"
+}
+
+### GET 
+GET http://localhost:8000/users
